@@ -1,0 +1,20 @@
+.row {
+    display: grid;
+    gap: 20px;
+}
+
+.across2 {
+    grid-template-columns: 1fr 1fr;
+}
+
+.across3 {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.across4 {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.row>*{
+    width: 100%;
+}

@@ -1,0 +1,11 @@
+.cardImage{
+    position: relative;
+    overflow: hidden;
+    height: 222px;
+    width: 395px;
+    display: flex;
+    justify-content: center;
+}
+.cardImage img{
+    height: 100%;
+}

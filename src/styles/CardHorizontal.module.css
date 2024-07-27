@@ -1,0 +1,25 @@
+.cardHorizontal {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cardHorizontal>* {
+    width: 300px;
+    height: 300px;
+}
+
+.cardHorizontal p {
+    margin-left: 25px;
+}
+
+.cardHorizontal h3 {
+    text-align: center;
+}
+
+.active {
+    z-index: 10 !important;
+    opacity: 1 !important;
+    scale: 1.1;
+}

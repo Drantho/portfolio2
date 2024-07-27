@@ -1,0 +1,11 @@
+.textBlock {
+  font-size: 1.5rem;
+  color: white;
+  background-color: rgb(34, 46, 63);
+  padding: 50px 75px;
+  height: fit-content;
+}
+
+.textBlock * {
+  color: white;
+}

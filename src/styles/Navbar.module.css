@@ -1,0 +1,39 @@
+.nav {
+    background-color: rgba(34, 46, 63, 1);
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    font-size: 1.5rem;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.nav .links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+}
+
+.nav ul li {
+    margin: 10px 0 10px 55px;
+}
+
+.nav .brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: 0;
+}
