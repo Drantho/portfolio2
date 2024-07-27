@@ -9,7 +9,7 @@ type ButtonProps = {
 };
 
 const Button = (props: ButtonProps) => {
-    const { children, href, style, alt } = props;
+    const { children, href, style } = props;
   return (
     <a href={href} style={style} className={styles.button}>{children}</a>
   )
